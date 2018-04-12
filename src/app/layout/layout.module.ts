@@ -1,14 +1,16 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { LayoutComponent } from './layout/layout.component';
-import { HeaderComponent } from './components/header/header.component';
-import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
+import { LayoutComponent } from '../layout/layout.component';
+import { HeaderComponent } from '../layout/components/header/header.component';
+import { SidebarComponent } from '../layout/components/sidebar/sidebar.component';
+import { LayoutRoutingModule } from '../layout/layout-routing.module';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    LayoutRoutingModule,
   ],
-  declarations: [LayoutComponent, HeaderComponent, SidebarComponent, DashboardComponent]
+  declarations: [LayoutComponent, HeaderComponent, SidebarComponent]
 })
+
 export class LayoutModule { }
