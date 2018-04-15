@@ -1,3 +1,8 @@
+.header {
+    width: 960 px;
+    margin: auto;
+}
+
 .header ul {
     list-style-type: none;
     margin: 0;
@@ -19,4 +24,9 @@
 .header li a:hover {
     background-color: darkgray;
     color: white;
+}
+
+.header-pull-right {
+    float: right;
+    padding: 0;
 }
