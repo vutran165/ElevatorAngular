@@ -1,5 +1,4 @@
 .header {
-    
     margin: auto;
 }
 
@@ -29,4 +28,5 @@
 .header-pull-right {
     float: right;
     padding: 0;
+
 }
