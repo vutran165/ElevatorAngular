@@ -1,3 +1,6 @@
 .main-wrapper {
-    width: 960 px;
+    margin: auto;
+    width: 1000 px;
+    height: auto;
+    overflow: auto;
 }
