@@ -1,32 +1,5 @@
 .header {
-    margin: auto;
-}
-
-.header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 60px;
-}
-
-.header li {
-    display: inline;
-}
-
-.header li a {
-    display: block;
-    color: darkcyan;
-    padding: 8px 16px;
-    text-decoration: none;
-}
-
-.header li a:hover {
-    background-color: darkgray;
-    color: white;
-}
-
-.header-pull-right {
-    float: right;
-    padding: 0;
-
+    width: 840 px;
+    height: 5%;
+    float : right;
 }
