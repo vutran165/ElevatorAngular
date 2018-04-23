@@ -5,6 +5,7 @@ import { HeaderComponent } from '../layout/components/header/header.component';
 import { SidebarComponent } from '../layout/components/sidebar/sidebar.component';
 import { LayoutRoutingModule } from '../layout/layout-routing.module';
 
+
 @NgModule({
   imports: [
     CommonModule,
