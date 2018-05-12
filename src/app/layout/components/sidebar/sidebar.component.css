@@ -4,3 +4,22 @@
     float: left;
 }
 
+.list-group {
+    width: auto;
+    height: 100%;
+}
+
+.nested-first {
+    width: auto;
+    height: 10%;
+    padding: 1% 1% 1% 1%;
+}
+
+.nested-first .list-group-item {
+    padding: 20% 0 0 35%;
+} 
+
+.nested-menu {
+    width: auto;
+    height: 95%;
+}
