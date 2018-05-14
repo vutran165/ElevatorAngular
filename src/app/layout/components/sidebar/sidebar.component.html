@@ -1,33 +1,58 @@
-<nav class="sidebar">
-  
-  <div class="list-group">
-      <div class="nested-first">
-          <a class="list-group-item">
-              <i class="fa fa-fw fa-dashboard"></i><span>Dashboard</span>
-            </a>
-      </div>
-     
-
-      <div class="nested-menu">
-    
-            <a class="list-group-item">
-                <span><i class="fa fa-plus"></i>&nbsp; Menu</span>
-            </a>
-            <div class="nested">
-                  <ul class="submenu">
-                     <li>
-                        <a href="#">Submenu 1</a>
-                     </li>
-                      <li>
-                        <a  href="#">Submenu 1</a>
-                    </li>
-                      <li>
-                        <a  href="#">Submenu 1</a>
-                    </li>
-                  </ul>
+<!-- left side column, contains the logo and sidebar -->
+<aside class="main-sidebar">
+   <section class="sidebar">
+       <!-- user info -->
+        <div class="user-panel">
+            <div class="pull-left image">
+                <a href="#"><img src="#" /></a>
             </div>
-      </div>
+            <div class="pull-right info">
+                <a href="#">Info</a>
+            </div>
+        </div>
+        <!-- search form -->
+        <form class="sidebar-form">
+            <div class="input-group">
+                <input type="text" name="search-box" placeholder="Search here ..." />
+                <span class="input-group-btn">
+                    <button type="submit" name="searchbtn" id="search-btn" class="btn btn-search">
+                            <i class="fa fa-search"></i>
+                    </button>
+                </span>
+            </div>
+        </form>
+        <!-- end -->
+        <ul class="sidebar-menu">
+            <li class="header">MAIN NAVIGATION</li>
+            <li class="active treeview">
+                <a href="#">
+                    <i class="fa fa-dashboard"></i><span>Dashboard</span>
+                    <span class="pull-right-container">
+                        <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
+                <ul class="treeview-menu">
+                    <li class="active"><a href="#"><i class="fa fa-circle-o"></i>Dashboard v1</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i>Dashboard v2</a></li>
+                </ul>
+            </li>
 
-  </div>
+            <li class="treeview">
+                <a href="#">
+                    <span>Menu</span>
+                    <span class="pull-right-container">
+                            <i class="fa fa-angle-left pull-right"></i>
+                    </span>
+                </a>
 
-</nav>
+                <ul class="treeview-menu">
+                    <li><a href="#"><i class="fa fa-circle-o"></i>Sub 1</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i>Sub 2</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i>Sub 3</a></li>
+                    <li><a href="#"><i class="fa fa-circle-o"></i>Sub 4</a></li>
+                </ul>
+            </li>
+        </ul>
+       
+   </section>
+</aside>
