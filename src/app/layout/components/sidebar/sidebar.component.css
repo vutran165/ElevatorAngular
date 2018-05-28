@@ -4,3 +4,40 @@
     height: 100%;
     /* background-color: cornflowerblue; */
 }
+
+.treeview-menu a {
+    background-color:darkgray;
+    color: black;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: auto;
+    background-color: darkgray;
+}
+
+.sidebar-menu ul ul {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.sidebar-menu li:hover > ul {
+    max-height: 100%;
+    transition: max-height 0.2s ease-in;
+}
+.sidebar > ul > li {
+    list-style-type: none;
+
+}
+
+li.treeview {
+    position: relative;
+}
+
+.header {
+    text-align: center;
+}
