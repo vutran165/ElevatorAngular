@@ -19,16 +19,19 @@
     background-color: darkgray;
 }
 
+/* hide li */
 .sidebar-menu ul ul {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
 
+/* show ul */
 .sidebar-menu li:hover > ul {
     max-height: 100%;
     transition: max-height 0.2s ease-in;
 }
+
 .sidebar > ul > li {
     list-style-type: none;
 
